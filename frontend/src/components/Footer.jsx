@@ -3,8 +3,8 @@ import { FaGithub, FaLinkedin, FaTwitter, FaFacebook, FaTwitch } from "react-ico
 
 const Footer = () => {
   return (
-    <footer className="p-4 bg-white dark:bg-gray-800 dark:text-gray-300">
-      <div className="max-w-[1240px] mx-auto grid grid-cols-2 md:grid-cols-3 gap-4 ">
+    <footer className="p-4 pt-10 bg-white dark:bg-gray-800 dark:text-gray-300">
+      <div className="max-w-310 mx-auto grid grid-cols-2 md:grid-cols-3 gap-4 ">
         <div className="dark:text-gray-400 ">
           <p>© 2026 My Website. All rights reserved.</p>
           <div className="flex justify-center sm:w-xs pt-4 gap-4">
