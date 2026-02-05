@@ -7,7 +7,7 @@ const Blogs = () => {
       title: "Blog How to start a blog",
       description: "Brief description of Blog 1. This is a placeholder text.",
       imageUrl:
-        "https://www.rakuthaimassage.com.au/wp-content/uploads/2024/07/pexels-tima-miroshnichenko-6187837-scaled.jpg",
+        "https://picsum.photos/200/300?grayscale",
     },
   ];
 
@@ -15,6 +15,21 @@ const Blogs = () => {
     <div className="w-full mx-auto flex items-center justify-center">
       <div className="relative w-full pt-30 mx-auto bg-gray-200 py-16 px-4 ">
         {/* #hero section */}
+
+
+        {/* #blogs Title section */}
+        <div className="lg:w-2/3 text-center mx-auto">
+          <h1 className="text-gray-900 text-balance dark:text-white font-bold text-5xl md:text-6xl xl:text-7xl">
+            Shaping a world with re-imagination.
+          </h1>
+          <p className="text-gray-700 dark:text-gray-300 mt-6 text-lg md:text-xl">
+            Dive into our blog for the latest insights, trends, and stories in
+            technology, innovation, and beyond. Stay informed and inspired with
+            expert perspectives and in-depth analyses.
+          </p>
+        </div>
+
+        {/* #blogs Card section */}
 
         {blogs.map((blog) => (
           <div key={blog.id} className="max-w-[1240px] mx-auto py-16">
@@ -34,17 +49,6 @@ const Blogs = () => {
           </div>
         ))}
 
-        {/* #blogs Title section */}
-        <div className="lg:w-2/3 text-center mx-auto">
-          <h1 className="text-gray-900 text-balance dark:text-white font-bold text-5xl md:text-6xl xl:text-7xl">
-            Shaping a world with re-imagination.
-          </h1>
-          <p className="text-gray-700 dark:text-gray-300 mt-6 text-lg md:text-xl">
-            Dive into our blog for the latest insights, trends, and stories in
-            technology, innovation, and beyond. Stay informed and inspired with
-            expert perspectives and in-depth analyses.
-          </p>
-        </div>
       </div>
     </div>
   );
