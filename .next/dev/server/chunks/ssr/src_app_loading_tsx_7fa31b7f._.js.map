@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///Users/mangomini/Documents/github/yselect/src/app/loading.tsx"],"sourcesContent":["export default function Loading() {\n  return (\n    <div className=\"fixed inset-0 flex items-center justify-center bg-gray-200 bg-opacity-50\">\n      <div className=\"animate-spin h-12 w-12 border-t-4 border-pink-600 rounded-full\" />\n    </div>\n  );\n}"],"names":[],"mappings":";;;;;;AAAe,SAAS;IACtB,qBACE,8OAAC;QAAI,WAAU;kBACb,cAAA,8OAAC;YAAI,WAAU;;;;;;;;;;;AAGrB"}}]
+}

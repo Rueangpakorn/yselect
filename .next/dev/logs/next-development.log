@@ -1,0 +1,623 @@
+[00:00:02.733] Server  LOG     
+[00:00:02.733] Server  LOG       We detected TypeScript in your project and reconfigured your tsconfig.json file for you.
+[00:00:02.734] Server  LOG       The following suggested values were added to your tsconfig.json. These values can be changed to fit your project's needs:
+
+[00:00:02.734] Server  LOG       	- target was set to ES2017 (For top-level `await`. Note: Next.js only polyfills for the esmodules target.)
+[00:00:02.734] Server  LOG       	- include was updated to add '.next/dev/types/**/*.ts'
+[00:00:02.734] Server  LOG     
+[00:00:02.734] Server  LOG       The following mandatory changes were made to your tsconfig.json:
+
+[00:00:02.734] Server  LOG       	- jsx was set to react-jsx (next.js uses the React automatic runtime)
+[00:00:02.734] Server  LOG     
+[00:00:02.755] Server  WARN    ⚠ The "middleware" file convention is deprecated. Please use "proxy" instead. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+[00:00:02.968] Server  LOG     ✓ Ready in 2.5s
+[00:00:11.188] Server  ERROR   Error: Route "/" used `cookies().get`. `cookies()` returns a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at getAuthToken (src/data/services/get-token.ts:4:28)
+    at getUserMeLoader (src/data/services/get-user-me-loader.ts:15:39)
+    at middleware (src/middleware.ts:6:37)
+  2 |
+  3 | export async function getAuthToken() {
+> 4 |   const authToken = cookies().get("jwt")?.value;
+    |                            ^
+  5 |   return authToken;
+  6 | } {
+  
+}
+[00:00:11.216] Server  ERROR   ⨯ TypeError: {imported module ./nodemodules/next/dist/esm/server/request/cookies.js}.cookies(...).get is not a function
+[00:00:12.618] Server  ERROR   Error: Route "/" used `cookies().get`. `cookies()` returns a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at getAuthToken (src/data/services/get-token.ts:4:28)
+    at getUserMeLoader (src/data/services/get-user-me-loader.ts:15:39)
+    at middleware (src/middleware.ts:6:37)
+  2 |
+  3 | export async function getAuthToken() {
+> 4 |   const authToken = cookies().get("jwt")?.value;
+    |                            ^
+  5 |   return authToken;
+  6 | } {
+  
+}
+[00:00:12.634] Server  ERROR   ⨯ TypeError: {imported module ./nodemodules/next/dist/esm/server/request/cookies.js}.cookies(...).get is not a function
+[00:00:12.662] Server  ERROR   Error: Route "/" used `cookies().get`. `cookies()` returns a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at getAuthToken (src/data/services/get-token.ts:4:28)
+    at getUserMeLoader (src/data/services/get-user-me-loader.ts:15:39)
+    at middleware (src/middleware.ts:6:37)
+  2 |
+  3 | export async function getAuthToken() {
+> 4 |   const authToken = cookies().get("jwt")?.value;
+    |                            ^
+  5 |   return authToken;
+  6 | } {
+  
+}
+[00:00:12.728] Server  ERROR   ⨯ TypeError: {imported module ./nodemodules/next/dist/esm/server/request/cookies.js}.cookies(...).get is not a function
+[00:00:13.296] Server  ERROR   Error: Route "/" used `cookies().get`. `cookies()` returns a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at getAuthToken (src/data/services/get-token.ts:4:28)
+    at getUserMeLoader (src/data/services/get-user-me-loader.ts:15:39)
+    at middleware (src/middleware.ts:6:37)
+  2 |
+  3 | export async function getAuthToken() {
+> 4 |   const authToken = cookies().get("jwt")?.value;
+    |                            ^
+  5 |   return authToken;
+  6 | } {
+  
+}
+[00:00:13.314] Server  ERROR   ⨯ TypeError: {imported module ./nodemodules/next/dist/esm/server/request/cookies.js}.cookies(...).get is not a function
+[00:00:13.339] Server  ERROR   Error: Route "/" used `cookies().get`. `cookies()` returns a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at getAuthToken (src/data/services/get-token.ts:4:28)
+    at getUserMeLoader (src/data/services/get-user-me-loader.ts:15:39)
+    at middleware (src/middleware.ts:6:37)
+  2 |
+  3 | export async function getAuthToken() {
+> 4 |   const authToken = cookies().get("jwt")?.value;
+    |                            ^
+  5 |   return authToken;
+  6 | } {
+  
+}
+[00:00:13.350] Server  ERROR   ⨯ TypeError: {imported module ./nodemodules/next/dist/esm/server/request/cookies.js}.cookies(...).get is not a function
+[00:00:13.367] Server  ERROR   Error: Route "/" used `cookies().get`. `cookies()` returns a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at getAuthToken (src/data/services/get-token.ts:4:28)
+    at getUserMeLoader (src/data/services/get-user-me-loader.ts:15:39)
+    at middleware (src/middleware.ts:6:37)
+  2 |
+  3 | export async function getAuthToken() {
+> 4 |   const authToken = cookies().get("jwt")?.value;
+    |                            ^
+  5 |   return authToken;
+  6 | } {
+  
+}
+[00:00:13.390] Server  ERROR   ⨯ TypeError: {imported module ./nodemodules/next/dist/esm/server/request/cookies.js}.cookies(...).get is not a function
+[00:00:13.411] Server  ERROR   Error: Route "/" used `cookies().get`. `cookies()` returns a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at getAuthToken (src/data/services/get-token.ts:4:28)
+    at getUserMeLoader (src/data/services/get-user-me-loader.ts:15:39)
+    at middleware (src/middleware.ts:6:37)
+  2 |
+  3 | export async function getAuthToken() {
+> 4 |   const authToken = cookies().get("jwt")?.value;
+    |                            ^
+  5 |   return authToken;
+  6 | } {
+  
+}
+[00:00:13.438] Server  ERROR   ⨯ TypeError: {imported module ./nodemodules/next/dist/esm/server/request/cookies.js}.cookies(...).get is not a function
+[00:00:13.467] Server  ERROR   Error: Route "/" used `cookies().get`. `cookies()` returns a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at getAuthToken (src/data/services/get-token.ts:4:28)
+    at getUserMeLoader (src/data/services/get-user-me-loader.ts:15:39)
+    at middleware (src/middleware.ts:6:37)
+  2 |
+  3 | export async function getAuthToken() {
+> 4 |   const authToken = cookies().get("jwt")?.value;
+    |                            ^
+  5 |   return authToken;
+  6 | } {
+  
+}
+[00:00:13.490] Server  ERROR   ⨯ TypeError: {imported module ./nodemodules/next/dist/esm/server/request/cookies.js}.cookies(...).get is not a function
+[00:00:13.519] Server  ERROR   Error: Route "/" used `cookies().get`. `cookies()` returns a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at getAuthToken (src/data/services/get-token.ts:4:28)
+    at getUserMeLoader (src/data/services/get-user-me-loader.ts:15:39)
+    at middleware (src/middleware.ts:6:37)
+  2 |
+  3 | export async function getAuthToken() {
+> 4 |   const authToken = cookies().get("jwt")?.value;
+    |                            ^
+  5 |   return authToken;
+  6 | } {
+  
+}
+[00:00:13.535] Server  ERROR   ⨯ TypeError: {imported module ./nodemodules/next/dist/esm/server/request/cookies.js}.cookies(...).get is not a function
+[00:00:13.561] Server  ERROR   Error: Route "/" used `cookies().get`. `cookies()` returns a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at getAuthToken (src/data/services/get-token.ts:4:28)
+    at getUserMeLoader (src/data/services/get-user-me-loader.ts:15:39)
+    at middleware (src/middleware.ts:6:37)
+  2 |
+  3 | export async function getAuthToken() {
+> 4 |   const authToken = cookies().get("jwt")?.value;
+    |                            ^
+  5 |   return authToken;
+  6 | } {
+  
+}
+[00:00:13.575] Server  ERROR   ⨯ TypeError: {imported module ./nodemodules/next/dist/esm/server/request/cookies.js}.cookies(...).get is not a function
+[00:00:13.605] Server  ERROR   Error: Route "/" used `cookies().get`. `cookies()` returns a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at getAuthToken (src/data/services/get-token.ts:4:28)
+    at getUserMeLoader (src/data/services/get-user-me-loader.ts:15:39)
+    at middleware (src/middleware.ts:6:37)
+  2 |
+  3 | export async function getAuthToken() {
+> 4 |   const authToken = cookies().get("jwt")?.value;
+    |                            ^
+  5 |   return authToken;
+  6 | } {
+  
+}
+[00:00:13.620] Server  ERROR   ⨯ TypeError: {imported module ./nodemodules/next/dist/esm/server/request/cookies.js}.cookies(...).get is not a function
+[00:00:13.644] Server  ERROR   Error: Route "/" used `cookies().get`. `cookies()` returns a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at getAuthToken (src/data/services/get-token.ts:4:28)
+    at getUserMeLoader (src/data/services/get-user-me-loader.ts:15:39)
+    at middleware (src/middleware.ts:6:37)
+  2 |
+  3 | export async function getAuthToken() {
+> 4 |   const authToken = cookies().get("jwt")?.value;
+    |                            ^
+  5 |   return authToken;
+  6 | } {
+  
+}
+[00:00:13.662] Server  ERROR   ⨯ TypeError: {imported module ./nodemodules/next/dist/esm/server/request/cookies.js}.cookies(...).get is not a function
+[00:00:13.689] Server  ERROR   Error: Route "/" used `cookies().get`. `cookies()` returns a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at getAuthToken (src/data/services/get-token.ts:4:28)
+    at getUserMeLoader (src/data/services/get-user-me-loader.ts:15:39)
+    at middleware (src/middleware.ts:6:37)
+  2 |
+  3 | export async function getAuthToken() {
+> 4 |   const authToken = cookies().get("jwt")?.value;
+    |                            ^
+  5 |   return authToken;
+  6 | } {
+  
+}
+[00:00:13.710] Server  ERROR   ⨯ TypeError: {imported module ./nodemodules/next/dist/esm/server/request/cookies.js}.cookies(...).get is not a function
+[00:00:13.737] Server  ERROR   Error: Route "/" used `cookies().get`. `cookies()` returns a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at getAuthToken (src/data/services/get-token.ts:4:28)
+    at getUserMeLoader (src/data/services/get-user-me-loader.ts:15:39)
+    at middleware (src/middleware.ts:6:37)
+  2 |
+  3 | export async function getAuthToken() {
+> 4 |   const authToken = cookies().get("jwt")?.value;
+    |                            ^
+  5 |   return authToken;
+  6 | } {
+  
+}
+[00:00:13.753] Server  ERROR   ⨯ TypeError: {imported module ./nodemodules/next/dist/esm/server/request/cookies.js}.cookies(...).get is not a function
+[00:00:13.769] Server  ERROR   Error: Route "/" used `cookies().get`. `cookies()` returns a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at getAuthToken (src/data/services/get-token.ts:4:28)
+    at getUserMeLoader (src/data/services/get-user-me-loader.ts:15:39)
+    at middleware (src/middleware.ts:6:37)
+  2 |
+  3 | export async function getAuthToken() {
+> 4 |   const authToken = cookies().get("jwt")?.value;
+    |                            ^
+  5 |   return authToken;
+  6 | } {
+  
+}
+[00:00:13.784] Server  ERROR   ⨯ TypeError: {imported module ./nodemodules/next/dist/esm/server/request/cookies.js}.cookies(...).get is not a function
+[00:00:13.811] Server  ERROR   Error: Route "/" used `cookies().get`. `cookies()` returns a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at getAuthToken (src/data/services/get-token.ts:4:28)
+    at getUserMeLoader (src/data/services/get-user-me-loader.ts:15:39)
+    at middleware (src/middleware.ts:6:37)
+  2 |
+  3 | export async function getAuthToken() {
+> 4 |   const authToken = cookies().get("jwt")?.value;
+    |                            ^
+  5 |   return authToken;
+  6 | } {
+  
+}
+[00:00:13.826] Server  ERROR   ⨯ TypeError: {imported module ./nodemodules/next/dist/esm/server/request/cookies.js}.cookies(...).get is not a function
+[00:00:13.849] Server  ERROR   Error: Route "/" used `cookies().get`. `cookies()` returns a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at getAuthToken (src/data/services/get-token.ts:4:28)
+    at getUserMeLoader (src/data/services/get-user-me-loader.ts:15:39)
+    at middleware (src/middleware.ts:6:37)
+  2 |
+  3 | export async function getAuthToken() {
+> 4 |   const authToken = cookies().get("jwt")?.value;
+    |                            ^
+  5 |   return authToken;
+  6 | } {
+  
+}
+[00:00:13.868] Server  ERROR   ⨯ TypeError: {imported module ./nodemodules/next/dist/esm/server/request/cookies.js}.cookies(...).get is not a function
+[00:00:13.896] Server  ERROR   Error: Route "/" used `cookies().get`. `cookies()` returns a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at getAuthToken (src/data/services/get-token.ts:4:28)
+    at getUserMeLoader (src/data/services/get-user-me-loader.ts:15:39)
+    at middleware (src/middleware.ts:6:37)
+  2 |
+  3 | export async function getAuthToken() {
+> 4 |   const authToken = cookies().get("jwt")?.value;
+    |                            ^
+  5 |   return authToken;
+  6 | } {
+  
+}
+[00:00:13.916] Server  ERROR   ⨯ TypeError: {imported module ./nodemodules/next/dist/esm/server/request/cookies.js}.cookies(...).get is not a function
+[00:00:13.942] Server  ERROR   Error: Route "/" used `cookies().get`. `cookies()` returns a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at getAuthToken (src/data/services/get-token.ts:4:28)
+    at getUserMeLoader (src/data/services/get-user-me-loader.ts:15:39)
+    at middleware (src/middleware.ts:6:37)
+  2 |
+  3 | export async function getAuthToken() {
+> 4 |   const authToken = cookies().get("jwt")?.value;
+    |                            ^
+  5 |   return authToken;
+  6 | } {
+  
+}
+[00:00:13.961] Server  ERROR   ⨯ TypeError: {imported module ./nodemodules/next/dist/esm/server/request/cookies.js}.cookies(...).get is not a function
+[00:00:13.995] Server  ERROR   Error: Route "/" used `cookies().get`. `cookies()` returns a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at getAuthToken (src/data/services/get-token.ts:4:28)
+    at getUserMeLoader (src/data/services/get-user-me-loader.ts:15:39)
+    at middleware (src/middleware.ts:6:37)
+  2 |
+  3 | export async function getAuthToken() {
+> 4 |   const authToken = cookies().get("jwt")?.value;
+    |                            ^
+  5 |   return authToken;
+  6 | } {
+  
+}
+[00:00:14.011] Server  ERROR   ⨯ TypeError: {imported module ./nodemodules/next/dist/esm/server/request/cookies.js}.cookies(...).get is not a function
+[00:00:14.146] Server  ERROR   Error: Route "/" used `cookies().get`. `cookies()` returns a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at getAuthToken (src/data/services/get-token.ts:4:28)
+    at getUserMeLoader (src/data/services/get-user-me-loader.ts:15:39)
+    at middleware (src/middleware.ts:6:37)
+  2 |
+  3 | export async function getAuthToken() {
+> 4 |   const authToken = cookies().get("jwt")?.value;
+    |                            ^
+  5 |   return authToken;
+  6 | } {
+  
+}
+[00:00:14.180] Server  ERROR   ⨯ TypeError: {imported module ./nodemodules/next/dist/esm/server/request/cookies.js}.cookies(...).get is not a function
+[00:00:14.252] Server  ERROR   Error: Route "/" used `cookies().get`. `cookies()` returns a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at getAuthToken (src/data/services/get-token.ts:4:28)
+    at getUserMeLoader (src/data/services/get-user-me-loader.ts:15:39)
+    at middleware (src/middleware.ts:6:37)
+  2 |
+  3 | export async function getAuthToken() {
+> 4 |   const authToken = cookies().get("jwt")?.value;
+    |                            ^
+  5 |   return authToken;
+  6 | } {
+  
+}
+[00:00:14.316] Server  ERROR   ⨯ TypeError: {imported module ./nodemodules/next/dist/esm/server/request/cookies.js}.cookies(...).get is not a function
+[00:00:14.397] Server  ERROR   Error: Route "/" used `cookies().get`. `cookies()` returns a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at getAuthToken (src/data/services/get-token.ts:4:28)
+    at getUserMeLoader (src/data/services/get-user-me-loader.ts:15:39)
+    at middleware (src/middleware.ts:6:37)
+  2 |
+  3 | export async function getAuthToken() {
+> 4 |   const authToken = cookies().get("jwt")?.value;
+    |                            ^
+  5 |   return authToken;
+  6 | } {
+  
+}
+[00:00:14.415] Server  ERROR   ⨯ TypeError: {imported module ./nodemodules/next/dist/esm/server/request/cookies.js}.cookies(...).get is not a function
+[00:00:14.582] Server  ERROR   Error: Route "/" used `cookies().get`. `cookies()` returns a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at getAuthToken (src/data/services/get-token.ts:4:28)
+    at getUserMeLoader (src/data/services/get-user-me-loader.ts:15:39)
+    at middleware (src/middleware.ts:6:37)
+  2 |
+  3 | export async function getAuthToken() {
+> 4 |   const authToken = cookies().get("jwt")?.value;
+    |                            ^
+  5 |   return authToken;
+  6 | } {
+  
+}
+[00:00:14.597] Server  ERROR   ⨯ TypeError: {imported module ./nodemodules/next/dist/esm/server/request/cookies.js}.cookies(...).get is not a function
+[00:00:14.611] Server  ERROR   Error: Route "/" used `cookies().get`. `cookies()` returns a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at getAuthToken (src/data/services/get-token.ts:4:28)
+    at getUserMeLoader (src/data/services/get-user-me-loader.ts:15:39)
+    at middleware (src/middleware.ts:6:37)
+  2 |
+  3 | export async function getAuthToken() {
+> 4 |   const authToken = cookies().get("jwt")?.value;
+    |                            ^
+  5 |   return authToken;
+  6 | } {
+  
+}
+[00:00:14.650] Server  ERROR   ⨯ TypeError: {imported module ./nodemodules/next/dist/esm/server/request/cookies.js}.cookies(...).get is not a function
+[00:00:15.034] Server  ERROR   Error: Route "/" used `cookies().get`. `cookies()` returns a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at getAuthToken (src/data/services/get-token.ts:4:28)
+    at getUserMeLoader (src/data/services/get-user-me-loader.ts:15:39)
+    at middleware (src/middleware.ts:6:37)
+  2 |
+  3 | export async function getAuthToken() {
+> 4 |   const authToken = cookies().get("jwt")?.value;
+    |                            ^
+  5 |   return authToken;
+  6 | } {
+  
+}
+[00:00:15.054] Server  ERROR   ⨯ TypeError: {imported module ./nodemodules/next/dist/esm/server/request/cookies.js}.cookies(...).get is not a function
+[00:00:15.069] Server  ERROR   Error: Route "/" used `cookies().get`. `cookies()` returns a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at getAuthToken (src/data/services/get-token.ts:4:28)
+    at getUserMeLoader (src/data/services/get-user-me-loader.ts:15:39)
+    at middleware (src/middleware.ts:6:37)
+  2 |
+  3 | export async function getAuthToken() {
+> 4 |   const authToken = cookies().get("jwt")?.value;
+    |                            ^
+  5 |   return authToken;
+  6 | } {
+  
+}
+[00:00:15.082] Server  ERROR   ⨯ TypeError: {imported module ./nodemodules/next/dist/esm/server/request/cookies.js}.cookies(...).get is not a function
+[00:00:15.100] Server  ERROR   Error: Route "/" used `cookies().get`. `cookies()` returns a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at getAuthToken (src/data/services/get-token.ts:4:28)
+    at getUserMeLoader (src/data/services/get-user-me-loader.ts:15:39)
+    at middleware (src/middleware.ts:6:37)
+  2 |
+  3 | export async function getAuthToken() {
+> 4 |   const authToken = cookies().get("jwt")?.value;
+    |                            ^
+  5 |   return authToken;
+  6 | } {
+  
+}
+[00:00:15.110] Server  ERROR   ⨯ TypeError: {imported module ./nodemodules/next/dist/esm/server/request/cookies.js}.cookies(...).get is not a function
+[00:00:15.124] Server  ERROR   Error: Route "/" used `cookies().get`. `cookies()` returns a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at getAuthToken (src/data/services/get-token.ts:4:28)
+    at getUserMeLoader (src/data/services/get-user-me-loader.ts:15:39)
+    at middleware (src/middleware.ts:6:37)
+  2 |
+  3 | export async function getAuthToken() {
+> 4 |   const authToken = cookies().get("jwt")?.value;
+    |                            ^
+  5 |   return authToken;
+  6 | } {
+  
+}
+[00:00:15.143] Server  ERROR   ⨯ TypeError: {imported module ./nodemodules/next/dist/esm/server/request/cookies.js}.cookies(...).get is not a function
+[00:00:15.155] Server  ERROR   Error: Route "/" used `cookies().get`. `cookies()` returns a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at getAuthToken (src/data/services/get-token.ts:4:28)
+    at getUserMeLoader (src/data/services/get-user-me-loader.ts:15:39)
+    at middleware (src/middleware.ts:6:37)
+  2 |
+  3 | export async function getAuthToken() {
+> 4 |   const authToken = cookies().get("jwt")?.value;
+    |                            ^
+  5 |   return authToken;
+  6 | } {
+  
+}
+[00:00:15.166] Server  ERROR   ⨯ TypeError: {imported module ./nodemodules/next/dist/esm/server/request/cookies.js}.cookies(...).get is not a function
+[00:00:15.196] Server  ERROR   Error: Route "/" used `cookies().get`. `cookies()` returns a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at getAuthToken (src/data/services/get-token.ts:4:28)
+    at getUserMeLoader (src/data/services/get-user-me-loader.ts:15:39)
+    at middleware (src/middleware.ts:6:37)
+  2 |
+  3 | export async function getAuthToken() {
+> 4 |   const authToken = cookies().get("jwt")?.value;
+    |                            ^
+  5 |   return authToken;
+  6 | } {
+  
+}
+[00:00:15.205] Server  ERROR   ⨯ TypeError: {imported module ./nodemodules/next/dist/esm/server/request/cookies.js}.cookies(...).get is not a function
+[00:00:15.232] Server  ERROR   Error: Route "/" used `cookies().get`. `cookies()` returns a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at getAuthToken (src/data/services/get-token.ts:4:28)
+    at getUserMeLoader (src/data/services/get-user-me-loader.ts:15:39)
+    at middleware (src/middleware.ts:6:37)
+  2 |
+  3 | export async function getAuthToken() {
+> 4 |   const authToken = cookies().get("jwt")?.value;
+    |                            ^
+  5 |   return authToken;
+  6 | } {
+  
+}
+[00:00:15.249] Server  ERROR   ⨯ TypeError: {imported module ./nodemodules/next/dist/esm/server/request/cookies.js}.cookies(...).get is not a function
+[00:00:15.265] Server  ERROR   Error: Route "/" used `cookies().get`. `cookies()` returns a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at getAuthToken (src/data/services/get-token.ts:4:28)
+    at getUserMeLoader (src/data/services/get-user-me-loader.ts:15:39)
+    at middleware (src/middleware.ts:6:37)
+  2 |
+  3 | export async function getAuthToken() {
+> 4 |   const authToken = cookies().get("jwt")?.value;
+    |                            ^
+  5 |   return authToken;
+  6 | } {
+  
+}
+[00:00:15.281] Server  ERROR   ⨯ TypeError: {imported module ./nodemodules/next/dist/esm/server/request/cookies.js}.cookies(...).get is not a function
+[00:00:15.306] Server  ERROR   Error: Route "/" used `cookies().get`. `cookies()` returns a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at getAuthToken (src/data/services/get-token.ts:4:28)
+    at getUserMeLoader (src/data/services/get-user-me-loader.ts:15:39)
+    at middleware (src/middleware.ts:6:37)
+  2 |
+  3 | export async function getAuthToken() {
+> 4 |   const authToken = cookies().get("jwt")?.value;
+    |                            ^
+  5 |   return authToken;
+  6 | } {
+  
+}
+[00:00:15.316] Server  ERROR   ⨯ TypeError: {imported module ./nodemodules/next/dist/esm/server/request/cookies.js}.cookies(...).get is not a function
+[00:00:15.345] Server  ERROR   Error: Route "/" used `cookies().get`. `cookies()` returns a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at getAuthToken (src/data/services/get-token.ts:4:28)
+    at getUserMeLoader (src/data/services/get-user-me-loader.ts:15:39)
+    at middleware (src/middleware.ts:6:37)
+  2 |
+  3 | export async function getAuthToken() {
+> 4 |   const authToken = cookies().get("jwt")?.value;
+    |                            ^
+  5 |   return authToken;
+  6 | } {
+  
+}
+[00:00:15.355] Server  ERROR   ⨯ TypeError: {imported module ./nodemodules/next/dist/esm/server/request/cookies.js}.cookies(...).get is not a function
+[00:00:15.373] Server  ERROR   Error: Route "/" used `cookies().get`. `cookies()` returns a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at getAuthToken (src/data/services/get-token.ts:4:28)
+    at getUserMeLoader (src/data/services/get-user-me-loader.ts:15:39)
+    at middleware (src/middleware.ts:6:37)
+  2 |
+  3 | export async function getAuthToken() {
+> 4 |   const authToken = cookies().get("jwt")?.value;
+    |                            ^
+  5 |   return authToken;
+  6 | } {
+  
+}
+[00:00:15.393] Server  ERROR   ⨯ TypeError: {imported module ./nodemodules/next/dist/esm/server/request/cookies.js}.cookies(...).get is not a function
+[00:00:15.405] Server  ERROR   Error: Route "/" used `cookies().get`. `cookies()` returns a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at getAuthToken (src/data/services/get-token.ts:4:28)
+    at getUserMeLoader (src/data/services/get-user-me-loader.ts:15:39)
+    at middleware (src/middleware.ts:6:37)
+  2 |
+  3 | export async function getAuthToken() {
+> 4 |   const authToken = cookies().get("jwt")?.value;
+    |                            ^
+  5 |   return authToken;
+  6 | } {
+  
+}
+[00:00:15.421] Server  ERROR   ⨯ TypeError: {imported module ./nodemodules/next/dist/esm/server/request/cookies.js}.cookies(...).get is not a function
+[00:00:15.443] Server  ERROR   Error: Route "/" used `cookies().get`. `cookies()` returns a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at getAuthToken (src/data/services/get-token.ts:4:28)
+    at getUserMeLoader (src/data/services/get-user-me-loader.ts:15:39)
+    at middleware (src/middleware.ts:6:37)
+  2 |
+  3 | export async function getAuthToken() {
+> 4 |   const authToken = cookies().get("jwt")?.value;
+    |                            ^
+  5 |   return authToken;
+  6 | } {
+  
+}
+[00:00:15.457] Server  ERROR   ⨯ TypeError: {imported module ./nodemodules/next/dist/esm/server/request/cookies.js}.cookies(...).get is not a function
+[00:00:15.492] Server  ERROR   Error: Route "/" used `cookies().get`. `cookies()` returns a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at getAuthToken (src/data/services/get-token.ts:4:28)
+    at getUserMeLoader (src/data/services/get-user-me-loader.ts:15:39)
+    at middleware (src/middleware.ts:6:37)
+  2 |
+  3 | export async function getAuthToken() {
+> 4 |   const authToken = cookies().get("jwt")?.value;
+    |                            ^
+  5 |   return authToken;
+  6 | } {
+  
+}
+[00:00:15.504] Server  ERROR   ⨯ TypeError: {imported module ./nodemodules/next/dist/esm/server/request/cookies.js}.cookies(...).get is not a function
+[00:00:15.512] Server  LOG     ○ Compiling /_not-found/page ...
+[00:00:15.530] Server  ERROR   Error: Route "/" used `cookies().get`. `cookies()` returns a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at getAuthToken (src/data/services/get-token.ts:4:28)
+    at getUserMeLoader (src/data/services/get-user-me-loader.ts:15:39)
+    at middleware (src/middleware.ts:6:37)
+  2 |
+  3 | export async function getAuthToken() {
+> 4 |   const authToken = cookies().get("jwt")?.value;
+    |                            ^
+  5 |   return authToken;
+  6 | } {
+  
+}
+[00:00:15.557] Server  ERROR   ⨯ TypeError: {imported module ./nodemodules/next/dist/esm/server/request/cookies.js}.cookies(...).get is not a function
+[00:00:15.579] Server  ERROR   Error: Route "/" used `cookies().get`. `cookies()` returns a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at getAuthToken (src/data/services/get-token.ts:4:28)
+    at getUserMeLoader (src/data/services/get-user-me-loader.ts:15:39)
+    at middleware (src/middleware.ts:6:37)
+  2 |
+  3 | export async function getAuthToken() {
+> 4 |   const authToken = cookies().get("jwt")?.value;
+    |                            ^
+  5 |   return authToken;
+  6 | } {
+  
+}
+[00:00:15.591] Server  ERROR   ⨯ TypeError: {imported module ./nodemodules/next/dist/esm/server/request/cookies.js}.cookies(...).get is not a function
+[00:00:15.616] Server  ERROR   Error: Route "/" used `cookies().get`. `cookies()` returns a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at getAuthToken (src/data/services/get-token.ts:4:28)
+    at getUserMeLoader (src/data/services/get-user-me-loader.ts:15:39)
+    at middleware (src/middleware.ts:6:37)
+  2 |
+  3 | export async function getAuthToken() {
+> 4 |   const authToken = cookies().get("jwt")?.value;
+    |                            ^
+  5 |   return authToken;
+  6 | } {
+  
+}
+[00:00:15.636] Server  ERROR   ⨯ TypeError: {imported module ./nodemodules/next/dist/esm/server/request/cookies.js}.cookies(...).get is not a function
+[00:00:15.640] Browser ERROR   uncaughtError: TypeError: {imported module ./nodemodules/next/dist/esm/server/request/cookies.js}.cookies(...).get is not a function
+[00:00:15.668] Server  ERROR   Error: Route "/" used `cookies().get`. `cookies()` returns a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at getAuthToken (src/data/services/get-token.ts:4:28)
+    at getUserMeLoader (src/data/services/get-user-me-loader.ts:15:39)
+    at middleware (src/middleware.ts:6:37)
+  2 |
+  3 | export async function getAuthToken() {
+> 4 |   const authToken = cookies().get("jwt")?.value;
+    |                            ^
+  5 |   return authToken;
+  6 | } {
+  
+}
+[00:00:15.694] Server  ERROR   ⨯ TypeError: {imported module ./nodemodules/next/dist/esm/server/request/cookies.js}.cookies(...).get is not a function
+[00:00:15.788] Server  ERROR   Error: Route "/" used `cookies().get`. `cookies()` returns a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at getAuthToken (src/data/services/get-token.ts:4:28)
+    at getUserMeLoader (src/data/services/get-user-me-loader.ts:15:39)
+    at middleware (src/middleware.ts:6:37)
+  2 |
+  3 | export async function getAuthToken() {
+> 4 |   const authToken = cookies().get("jwt")?.value;
+    |                            ^
+  5 |   return authToken;
+  6 | } {
+  
+}
+[00:00:15.805] Server  ERROR   ⨯ TypeError: {imported module ./nodemodules/next/dist/esm/server/request/cookies.js}.cookies(...).get is not a function
+[00:00:16.003] Server  ERROR   Error: Route "/" used `cookies().get`. `cookies()` returns a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at getAuthToken (src/data/services/get-token.ts:4:28)
+    at getUserMeLoader (src/data/services/get-user-me-loader.ts:15:39)
+    at middleware (src/middleware.ts:6:37)
+  2 |
+  3 | export async function getAuthToken() {
+> 4 |   const authToken = cookies().get("jwt")?.value;
+    |                            ^
+  5 |   return authToken;
+  6 | } {
+  
+}
+[00:00:16.028] Server  ERROR   ⨯ TypeError: {imported module ./nodemodules/next/dist/esm/server/request/cookies.js}.cookies(...).get is not a function
+[00:00:16.811] Browser ERROR   uncaughtError: TypeError: {imported module ./nodemodules/next/dist/esm/server/request/cookies.js}.cookies(...).get is not a function
+[00:00:17.578] Server  ERROR   Error: Route "/" used `cookies().get`. `cookies()` returns a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at getAuthToken (src/data/services/get-token.ts:4:28)
+    at getUserMeLoader (src/data/services/get-user-me-loader.ts:15:39)
+    at middleware (src/middleware.ts:6:37)
+  2 |
+  3 | export async function getAuthToken() {
+> 4 |   const authToken = cookies().get("jwt")?.value;
+    |                            ^
+  5 |   return authToken;
+  6 | } {
+  
+}
+[00:00:17.599] Server  ERROR   ⨯ TypeError: {imported module ./nodemodules/next/dist/esm/server/request/cookies.js}.cookies(...).get is not a function
+[00:00:19.088] Server  WARN    Error: Route "/_not-found" used `cookies().get`. `cookies()` returns a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:00:19.107] Server  ERROR   ⨯ TypeError: {imported module ./nodemodules/next/headers.js}.cookies(...).get is not a function
+[00:00:19.151] Server  ERROR   ⨯ TypeError: {imported module ./nodemodules/next/headers.js}.cookies(...).get is not a function
+[00:00:19.162] Server  WARN    Error: Route "/_not-found" used `cookies().get`. `cookies()` returns a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:00:19.173] Server  ERROR   ⨯ TypeError: {imported module ./nodemodules/next/headers.js}.cookies(...).get is not a function
+[00:00:19.187] Server  ERROR   ⨯ TypeError: {imported module ./nodemodules/next/headers.js}.cookies(...).get is not a function
+[00:00:19.308] Server  WARN    Error: Route "/_not-found" used `cookies().get`. `cookies()` returns a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:00:19.401] Server  WARN    Error: Route "/_not-found" used `cookies().get`. `cookies()` returns a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:00:20.632] Browser LOG     %c Web Data Assistant load: "tma_vars" display: block; font-size: 12px; line-height: 16px; padding: 2px 10px 2px 5px; background: #FFFFFF;; color:#007733;
