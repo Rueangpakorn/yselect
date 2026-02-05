@@ -9,7 +9,7 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="w-full h-16 z-10 bg-zinc-200 fixed drop-shadow-lg flex justify-between items-center px-4">
+      <div className="w-full h-16 z-10 bg-gray-50 fixed drop-shadow-lg flex justify-between items-center px-4">
         <div className="flex items-center">
           <img
             src={logo}
@@ -44,7 +44,7 @@ const Navbar = () => {
       <ul
         className={
           menuOpen
-            ? "absolute z-10 bg-zinc-200 w-full mt-16 px-8 md:hidden"
+            ? "absolute z-10 bg-gray-100 w-full mt-16 px-8 md:hidden"
             : "hidden"
         }
       >
@@ -57,7 +57,7 @@ const Navbar = () => {
           <button className="border-none bg-transparent text-black mr-4 mb-4 mt-4">
             Sign In
           </button>
-          <button className="px-8 py-3  bg-amber-50 rounded-2xl">
+          <button className="px-8 py-3  bg-gray-300 rounded-2xl">
             Sign Up
           </button>
         </div>

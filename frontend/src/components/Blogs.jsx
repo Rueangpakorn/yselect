@@ -1,9 +1,39 @@
 import React from "react";
 
 const Blogs = () => {
+  const blogs = [
+    {
+      id: 1,
+      title: "Blog How to start a blog",
+      description: "Brief description of Blog 1. This is a placeholder text.",
+      imageUrl:
+        "https://www.rakuthaimassage.com.au/wp-content/uploads/2024/07/pexels-tima-miroshnichenko-6187837-scaled.jpg",
+    },
+  ];
+
   return (
     <div className="w-full mx-auto flex items-center justify-center">
-      <div className="relative w-full pt-30 mx-auto bg-amber-100 py-16 px-4 ">
+      <div className="relative w-full pt-30 mx-auto bg-gray-200 py-16 px-4 ">
+        {/* #hero section */}
+
+        {blogs.map((blog) => (
+          <div key={blog.id} className="max-w-[1240px] mx-auto py-16">
+            <div className="grid lg:grid-cols-3 gap-8 px-4 text-black">
+              <div className="bg-white rounded-lg shadow-lg overflow-hidden drop-shadow-2xl">
+                <img
+                  className="h-56 w-full object-cover"
+                  src={blog.imageUrl}
+                  alt="{blog.title}"
+                />
+                <div>
+                  <h3 className="text-2xl font-bold p-4">{blog.title}</h3>
+                  <p className="p-4">{blog.description}</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        ))}
+
         {/* #blogs Title section */}
         <div className="lg:w-2/3 text-center mx-auto">
           <h1 className="text-gray-900 text-balance dark:text-white font-bold text-5xl md:text-6xl xl:text-7xl">
@@ -14,22 +44,6 @@ const Blogs = () => {
             technology, innovation, and beyond. Stay informed and inspired with
             expert perspectives and in-depth analyses.
           </p>
-        </div>
-
-        {/* #blogs section */}
-        <div className="grid lg:grid-cols-3 gap-8 px-4 text-black mt-12 lg:w-2/3 mx-auto">
-          <div className="bg-white p-6 rounded-lg shadow-lg">
-            <img src="" alt="" />
-            blog1
-          </div>
-          <div className="bg-white p-6 rounded-lg shadow-lg">
-            <img src="" alt="" />
-            blog2
-          </div>
-          <div className="bg-white p-6 rounded-lg shadow-lg">
-            <img src="" alt="" />
-            blog3
-          </div>
         </div>
       </div>
     </div>
