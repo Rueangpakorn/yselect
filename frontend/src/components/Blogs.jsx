@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Blogs = () => {
   const blogs = [
@@ -6,8 +7,7 @@ const Blogs = () => {
       id: 1,
       title: "Blog How to start a blog",
       description: "Brief description of Blog 1. This is a placeholder text.",
-      imageUrl:
-        "https://picsum.photos/200/300?grayscale",
+      imageUrl: "https://picsum.photos/200/300?grayscale",
     },
   ];
 
@@ -15,7 +15,6 @@ const Blogs = () => {
     <div className="w-full mx-auto flex items-center justify-center">
       <div className="relative w-full pt-30 mx-auto bg-gray-200 py-16 px-4 ">
         {/* #hero section */}
-
 
         {/* #blogs Title section */}
         <div className="lg:w-2/3 text-center mx-auto">
@@ -32,23 +31,24 @@ const Blogs = () => {
         {/* #blogs Card section */}
 
         {blogs.map((blog) => (
-          <div key={blog.id} className="max-w-[1240px] mx-auto py-16">
-            <div className="grid lg:grid-cols-3 gap-8 px-4 text-black">
-              <div className="bg-white rounded-lg shadow-lg overflow-hidden drop-shadow-2xl">
-                <img
-                  className="h-56 w-full object-cover"
-                  src={blog.imageUrl}
-                  alt="{blog.title}"
-                />
-                <div>
-                  <h3 className="text-2xl font-bold p-4">{blog.title}</h3>
-                  <p className="p-4">{blog.description}</p>
+          <Link to={`/blog/${blog.id}`} key={blog.id} className="w-full">
+            <div key={blog.id} className="max-w-310 mx-auto py-16">
+              <div className="grid lg:grid-cols-3 gap-8 px-4 text-black">
+                <div className="bg-white rounded-lg shadow-lg overflow-hidden drop-shadow-2xl">
+                  <img
+                    className="h-56 w-full object-cover"
+                    src={blog.imageUrl}
+                    alt="{blog.title}"
+                  />
+                  <div>
+                    <h3 className="text-2xl font-bold p-4">{blog.title}</h3>
+                    <p className="p-4">{blog.description}</p>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
+          </Link>
         ))}
-
       </div>
     </div>
   );
